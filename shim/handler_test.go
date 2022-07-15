@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim/internal/mock"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/hxx258456/fabric-chaincode-go-cc/shim/internal/mock"
+	peerpb "github.com/hxx258456/fabric-protos-go-cc/peer"
 
 	"github.com/stretchr/testify/assert"
 )

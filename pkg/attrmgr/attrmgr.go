@@ -6,7 +6,6 @@
 package attrmgr
 
 import (
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/json"
@@ -14,7 +13,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/msp"
+	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-protos-go-cc/msp"
 )
 
 var (

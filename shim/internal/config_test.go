@@ -5,20 +5,21 @@ package internal_test
 
 import (
 	"context"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/base64"
 	"io/ioutil"
 	"os"
 	"testing"
 	"time"
 
-	. "github.com/hyperledger/fabric-chaincode-go/shim/internal"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
+	tls "github.com/hxx258456/ccgo/gmtls"
+	"github.com/hxx258456/ccgo/x509"
+
+	"github.com/hxx258456/ccgo/grpc"
+	"github.com/hxx258456/ccgo/grpc/credentials"
+	"github.com/hxx258456/ccgo/grpc/keepalive"
+	. "github.com/hxx258456/fabric-chaincode-go-cc/shim/internal"
+	peerpb "github.com/hxx258456/fabric-protos-go-cc/peer"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
 )
 
 // TLS <key, cert, cacert> tuples for client and server were created

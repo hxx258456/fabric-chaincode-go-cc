@@ -25,7 +25,7 @@ All code samples below assume two things:
 2. You have added the following import statement to your chaincode.
 
     ```golang
-    import "github.com/hyperledger/fabric-chaincode-go/pkg/cid"
+    import "github.com/hxx258456/fabric-chaincode-go-cc/pkg/cid"
     ```
 
 ### Getting the client's ID

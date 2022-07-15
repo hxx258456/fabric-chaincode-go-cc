@@ -5,13 +5,14 @@ package internal
 
 import (
 	"context"
-	"crypto/tls"
 	"time"
 
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
+	tls "github.com/hxx258456/ccgo/gmtls"
+
+	"github.com/hxx258456/ccgo/grpc"
+	"github.com/hxx258456/ccgo/grpc/credentials"
+	"github.com/hxx258456/ccgo/grpc/keepalive"
+	peerpb "github.com/hxx258456/fabric-protos-go-cc/peer"
 )
 
 const (

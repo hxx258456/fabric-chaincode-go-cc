@@ -4,11 +4,12 @@
 package attrmgr_test
 
 import (
-	"crypto/x509"
 	"encoding/base64"
 	"testing"
 
-	"github.com/hyperledger/fabric-chaincode-go/pkg/attrmgr"
+	"github.com/hxx258456/ccgo/x509"
+
+	"github.com/hxx258456/fabric-chaincode-go-cc/pkg/attrmgr"
 	"github.com/stretchr/testify/assert"
 )
 

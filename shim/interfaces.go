@@ -5,8 +5,8 @@ package shim
 
 import (
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/hxx258456/fabric-protos-go-cc/ledger/queryresult"
+	pb "github.com/hxx258456/fabric-protos-go-cc/peer"
 )
 
 // Chaincode interface must be implemented by all chaincodes. The fabric runs

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/hyperledger/fabric-chaincode-go/shimtest/mock"
+	"github.com/hxx258456/fabric-chaincode-go-cc/shim"
+	"github.com/hxx258456/fabric-chaincode-go-cc/shimtest/mock"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,6 @@
 package internal
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -14,7 +12,10 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc/keepalive"
+	tls "github.com/hxx258456/ccgo/gmtls"
+	"github.com/hxx258456/ccgo/x509"
+
+	"github.com/hxx258456/ccgo/grpc/keepalive"
 )
 
 // Config contains chaincode's configuration

@@ -4,13 +4,14 @@
 package shim
 
 import (
-	"crypto/tls"
 	"errors"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim/internal"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	tls "github.com/hxx258456/ccgo/gmtls"
 
-	"google.golang.org/grpc/keepalive"
+	"github.com/hxx258456/fabric-chaincode-go-cc/shim/internal"
+	pb "github.com/hxx258456/fabric-protos-go-cc/peer"
+
+	"github.com/hxx258456/ccgo/grpc/keepalive"
 )
 
 // TLSProperties passed to ChaincodeServer

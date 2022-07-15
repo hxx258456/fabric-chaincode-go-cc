@@ -4,7 +4,6 @@
 package cid
 
 import (
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/base64"
@@ -13,8 +12,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-chaincode-go/pkg/attrmgr"
-	"github.com/hyperledger/fabric-protos-go/msp"
+	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-chaincode-go-cc/pkg/attrmgr"
+	"github.com/hxx258456/fabric-protos-go-cc/msp"
 )
 
 // GetID returns the ID associated with the invoking identity.  This ID

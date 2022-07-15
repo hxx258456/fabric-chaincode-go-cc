@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim/internal"
+	"github.com/hxx258456/fabric-chaincode-go-cc/shim/internal"
 
+	"github.com/hxx258456/ccgo/grpc/keepalive"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/keepalive"
 )
 
 func TestBadServer(t *testing.T) {
